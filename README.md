@@ -32,7 +32,10 @@ Install dependencies using Bun:
 ```bash
 bun install
 ```
-
+Install all further dependencies using 
+```
+bun add bcrypt body-parser express jsonwebtoken mongoose nodemailer otplib
+```
 mongodbUrl=mongodb://localhost:27017/yourdbname
 PORT=3000
 
